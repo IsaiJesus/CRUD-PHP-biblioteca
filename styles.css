@@ -1,0 +1,55 @@
+.dashboard{
+    background-color: #042049;
+    min-width: 200px;
+}
+
+.section{
+    color: white;
+}
+
+.section:hover{
+    color: #04A922;
+}
+
+.search-navbar{
+    width: 400px;
+}
+
+.fa-search{
+    color: #063B8B;
+}
+
+.fa-search:hover{
+    color: #212529;
+}
+
+.input-search{
+    width: 100%;
+    outline: none;
+}
+
+.form-submit{
+    color: #04A922;
+}
+
+.form-input{
+    outline: none;
+}
+
+.no-books{
+    color: #042049;
+}
+
+/*hide arrows from input number*/
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
